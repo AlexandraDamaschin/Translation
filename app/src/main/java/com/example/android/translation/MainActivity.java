@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //explicit intent
     public void openNumbersList(View view) {
         Intent i = new Intent(this, NumbersActivity.class);
         startActivity(i);
