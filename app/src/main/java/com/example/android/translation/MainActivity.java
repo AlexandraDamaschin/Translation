@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openFamilyList(View view) {
-        Intent i = new Intent(this, NumbersActivity.class);
+        Intent i = new Intent(this, FamilyActivity.class);
         startActivity(i);
     }
 
     public void openPhrasesList(View view) {
-        Intent i = new Intent(this, NumbersActivity.class);
+        Intent i = new Intent(this, PhrasesActivity.class);
         startActivity(i);
     }
 
     public void openColorsList(View view) {
-        Intent i = new Intent(this, NumbersActivity.class);
+        Intent i = new Intent(this, ColorsActivity.class);
         startActivity(i);
     }
 }
