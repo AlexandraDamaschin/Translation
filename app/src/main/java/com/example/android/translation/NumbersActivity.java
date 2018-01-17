@@ -25,6 +25,6 @@ public class NumbersActivity extends AppCompatActivity {
         englishWords[9] = "ten";
 
 //        let`s learn how to debug
-        Log.v("NumbersActivity", "Word at index 7 is "+englishWords[7]);
+//        Log.v("NumbersActivity", "Word at index 7 is "+englishWords[7]);
     }
 }
