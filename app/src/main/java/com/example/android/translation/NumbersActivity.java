@@ -2,6 +2,7 @@ package com.example.android.translation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class NumbersActivity extends AppCompatActivity {
 
@@ -22,5 +23,8 @@ public class NumbersActivity extends AppCompatActivity {
         englishWords[7] = "eight";
         englishWords[8] = "nine";
         englishWords[9] = "ten";
+
+//        let`s learn how to debug
+        Log.v("NumbersActivity", "Word at index 7 is "+englishWords[7]);
     }
 }
