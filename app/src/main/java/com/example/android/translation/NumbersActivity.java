@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import java.util.ArrayList;
+
 public class NumbersActivity extends AppCompatActivity {
 
     @Override
@@ -11,20 +13,20 @@ public class NumbersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
-        // Create an array of words
-        String[] englishWords = new String[10];
-        englishWords[0] = "one";
-        englishWords[1] = "two";
-        englishWords[2] = "three";
-        englishWords[3] = "four";
-        englishWords[4] = "five";
-        englishWords[5] = "six";
-        englishWords[6] = "seven";
-        englishWords[7] = "eight";
-        englishWords[8] = "nine";
-        englishWords[9] = "ten";
+        // Create a list of words
+        ArrayList<String> words = new ArrayList<String>();
+        words.add("one");
+        words.add("two");
+        words.add("three");
+        words.add("four");
+        words.add("five");
+        words.add("six");
+        words.add("seven");
+        words.add("eight");
+        words.add("nine");
+        words.add("ten");
 
 //        let`s learn how to debug
-//        Log.v("NumbersActivity", "Word at index 7 is "+englishWords[7]);
+//        Log.v("NumbersActivity", "Word at index 7 is "+words.get(7));
     }
 }
