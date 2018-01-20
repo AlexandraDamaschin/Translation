@@ -32,6 +32,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         TextView romanianTextView = (TextView) listItemView.findViewById(R.id.romanian_text_view);
         romanianTextView.setText(currentWord.getRomanianTranslation());
+
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         defaultTextView.setText(currentWord.getDefaultTranslation());
 
