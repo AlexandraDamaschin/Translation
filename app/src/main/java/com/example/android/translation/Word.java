@@ -18,7 +18,7 @@ public class Word  {
         return mDefaultTranslation;
     }
 
-    public String getmRomanianTranslation() {
+    public String getRomanianTranslation() {
         return mRomanianTranslation;
     }
 }
