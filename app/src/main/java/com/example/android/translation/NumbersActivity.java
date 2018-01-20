@@ -35,13 +35,11 @@ public class NumbersActivity extends AppCompatActivity {
 //        let`s learn how to debug
 //        Log.v("NumbersActivity", "Word at index 7 is "+words.get(7));
 
-        ArrayAdapter<String> itemsAdapter =
-                new ArrayAdapter<String>(this,
-                        R.layout.list_item, words);
-
+        WordAdapter adapter =
+                new WordAdapter(this, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
-        listView.setAdapter(itemsAdapter);
+        listView.setAdapter(adapter);
     }
 }

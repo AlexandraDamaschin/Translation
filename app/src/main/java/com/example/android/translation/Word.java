@@ -4,7 +4,7 @@ package com.example.android.translation;
  * Created by e6420 on 1/20/2018.
  */
 
-public class Word {
+public class Word  {
 
     private String mDefaultTranslation;
     private String mRomanianTranslation;
@@ -18,7 +18,7 @@ public class Word {
         return mDefaultTranslation;
     }
 
-    public String getmRomanianTranslation() {
+    public String getRomanianTranslation() {
         return mRomanianTranslation;
     }
 }
