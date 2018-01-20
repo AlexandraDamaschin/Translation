@@ -7,18 +7,18 @@ package com.example.android.translation;
 public class Word {
 
     private String mDefaultTranslation;
-    private String mMiwokTranslation;
+    private String mRomanianTranslation;
 
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String romanianTranslation) {
         mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
+        mRomanianTranslation = romanianTranslation;
     }
 
     public String getDefaultTranslation() {
         return mDefaultTranslation;
     }
 
-    public String getMiwokTranslation() {
-        return mMiwokTranslation;
+    public String getmRomanianTranslation() {
+        return mRomanianTranslation;
     }
 }
