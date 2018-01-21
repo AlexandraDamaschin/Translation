@@ -32,7 +32,7 @@ public class NumbersActivity extends AppCompatActivity {
 //        Log.v("NumbersActivity", "Word at index 7 is "+words.get(7));
 
         WordAdapter adapter =
-                new WordAdapter(this, words);
+                new WordAdapter(this, words,R.color.category_numbers);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
