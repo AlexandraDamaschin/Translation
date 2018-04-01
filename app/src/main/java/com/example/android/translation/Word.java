@@ -10,18 +10,21 @@ public class Word {
     private String mRomanianTranslation;
     private static final int NO_IMAGE_PROVIDED = -1;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
+    private int mAudioResourceId;
 
     //constructor for text views -> phrases
-    public Word(String defaultTranslation, String romanianTranslation) {
+    public Word(String defaultTranslation, String romanianTranslation, int  audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mRomanianTranslation = romanianTranslation;
+        mAudioResourceId = audioResourceId;
     }
 
     // constructor for text views and image -> colors, family, numbers
-    public Word(String defaultTranslation, String romanianTranslation, int imageResourceId) {
+    public Word(String defaultTranslation, String romanianTranslation, int imageResourceId, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mRomanianTranslation = romanianTranslation;
         mImageResourceId = imageResourceId;
+        mAudioResourceId = audioResourceId;
     }
 
     public String getDefaultTranslation() {
@@ -40,4 +43,12 @@ public class Word {
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
+
+    /**
+     * Return the audio resource ID of the word.
+     */
+    public int getAudioResourceId() {
+        return mAudioResourceId;
+    }
+
 }
