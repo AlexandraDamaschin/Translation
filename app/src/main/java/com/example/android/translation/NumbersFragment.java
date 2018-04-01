@@ -74,16 +74,16 @@ public class NumbersFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         //words.add("one");
-        words.add(new Word("one", "unu", R.drawable.number_one));
-        words.add(new Word("two", "doi", R.drawable.number_two));
-        words.add(new Word("three", "trei", R.drawable.number_three));
-        words.add(new Word("four", "patru", R.drawable.number_four));
-        words.add(new Word("five", "cinci", R.drawable.number_five));
-        words.add(new Word("six", "sase", R.drawable.number_six));
-        words.add(new Word("seven", "sapte", R.drawable.number_seven));
-        words.add(new Word("eight", "opt", R.drawable.number_eight));
-        words.add(new Word("nine", "noua", R.drawable.number_nine));
-        words.add(new Word("ten", "zece", R.drawable.number_ten));
+        words.add(new Word("one", "unu", R.drawable.number_one, R.raw.unu ));
+        words.add(new Word("two", "doi", R.drawable.number_two, R.raw.unu ));
+        words.add(new Word("three", "trei", R.drawable.number_three, R.raw.unu ));
+        words.add(new Word("four", "patru", R.drawable.number_four, R.raw.unu ));
+        words.add(new Word("five", "cinci", R.drawable.number_five, R.raw.unu ));
+        words.add(new Word("six", "sase", R.drawable.number_six, R.raw.unu ));
+        words.add(new Word("seven", "sapte", R.drawable.number_seven, R.raw.unu ));
+        words.add(new Word("eight", "opt", R.drawable.number_eight, R.raw.unu ));
+        words.add(new Word("nine", "noua", R.drawable.number_nine, R.raw.unu ));
+        words.add(new Word("ten", "zece", R.drawable.number_ten, R.raw.unu ));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s.
         // The adapter knows how to create list items for each item in the list.

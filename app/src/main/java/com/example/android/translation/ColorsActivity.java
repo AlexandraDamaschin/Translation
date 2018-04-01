@@ -15,14 +15,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("red", "rosu", R.drawable.color_red));
-        words.add(new Word("dusty yellow", "crem", R.drawable.color_dusty_yellow));
-        words.add(new Word("yellow", "galben", R.drawable.color_mustard_yellow));
-        words.add(new Word("green", "verde", R.drawable.color_green));
-        words.add(new Word("brown", "maro", R.drawable.color_brown));
-        words.add(new Word("gray", "gri", R.drawable.color_gray));
-        words.add(new Word("black", "negru", R.drawable.color_black));
-        words.add(new Word("white", "alb", R.drawable.color_white));
+        words.add(new Word("red", "rosu", R.drawable.color_red, R.raw.unu ));
+        words.add(new Word("dusty yellow", "crem", R.drawable.color_dusty_yellow, R.raw.unu ));
+        words.add(new Word("yellow", "galben", R.drawable.color_mustard_yellow, R.raw.unu ));
+        words.add(new Word("green", "verde", R.drawable.color_green, R.raw.unu ));
+        words.add(new Word("brown", "maro", R.drawable.color_brown, R.raw.unu ));
+        words.add(new Word("gray", "gri", R.drawable.color_gray, R.raw.unu ));
+        words.add(new Word("black", "negru", R.drawable.color_black, R.raw.unu ));
+        words.add(new Word("white", "alb", R.drawable.color_white, R.raw.unu ));
 
         WordAdapter adapter = new WordAdapter(this, words,R.color.category_colors);
 
