@@ -17,6 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!--numbers activity-->
         <activity
             android:name=".NumbersActivity"
@@ -26,6 +27,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <!--phrases activity-->
         <activity
             android:name=".PhrasesActivity"
@@ -35,6 +37,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <!--family activity-->
         <activity
             android:name=".FamilyActivity"
@@ -44,6 +47,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <!--colors activity-->
         <activity
             android:name=".ColorsActivity"
@@ -53,5 +57,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
     </application>
 </manifest>

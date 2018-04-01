@@ -21,7 +21,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
         super(context, 0, words);
-        mColorResourceId= colorResourceId;
+        mColorResourceId = colorResourceId;
     }
 
     @Override

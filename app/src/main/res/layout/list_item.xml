@@ -6,6 +6,7 @@
     android:minHeight="@dimen/list_item_height"
     android:orientation="horizontal">
 
+    <!--image-->
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_height"
@@ -18,6 +19,7 @@
         android:orientation="vertical"
         android:paddingLeft="@dimen/linear_layout_padding">
 
+        <!--romanian translation-->
         <TextView
             android:id="@+id/romanian_text_view"
             android:layout_width="match_parent"
@@ -29,6 +31,7 @@
             android:textStyle="bold"
             tools:text="unu" />
 
+        <!--default translation-->
         <TextView
             android:id="@+id/default_text_view"
             android:layout_width="match_parent"
@@ -39,5 +42,4 @@
             android:textColor="@android:color/white"
             tools:text="one" />
     </LinearLayout>
-
 </LinearLayout>
